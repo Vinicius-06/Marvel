@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: 	#F5FFFA;
+}
+
+/* h1 ate h6 */
+h1{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    /* background-color: red; */
+}
+
+h2{
+    font-size: 50px;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 4rem;
+    padding-bottom: 10rem;
+}
+/* h1 ate h6 */
+
+/* scrolls */
+#filmes{
+    padding: 150px;
+}
+
+#personagens{
+    padding: 15px;
+}
+/* scrolls */
+
+/* INICIO HEADER */
+.logo{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.navegacao{
+    text-align: end;
+    font-size: 30px;
+    margin-top: 2rem;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: blue;
+}
+/* FIM HEADER */
+
+/* INICIO MEIO */
+/* INICIO VINGADORES1 */
+.A1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+.filme1 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.filme1 ul{
+    font-size: 1.2rem;
+    padding-left: 21.5%;
+}
+/* FIM VINGADORES 1 */
+
+/* INICIO VINGADORES 2 */
+.A2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.A2 img{
+    width: 42%;
+}
+
+.filme2 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.filme2 ul{
+    font-size: 1.2rem;
+    padding-left: 21.5%;
+}
+/* FIM VINGADORES 2 */
+
+/* INICIO VINGADORES 3 */
+.A3{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.A3 img{
+    width: 40%;
+}
+
+.filme3 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.filme3 ul{
+    font-size: 1.2rem;
+    padding-left: 21.5%;
+}
+/* FIM VINGADORES 3 */
+
+/* INICIO VINGADORES 4 */
+.A4{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.A4 img{
+    width: 50%;
+}
+
+.filme4 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.filme4 ul{
+    font-size: 1.2rem;
+    padding-left: 21.5%;
+}
+/* FIM VINGADORES 4 */
+
+
+/* INICIO PERSONAGENS --------------------------------------------------------------- */
+
+/* HOMEM DE FERRO */
+.homem-de-ferro img{
+    width: 710%;
+    padding-left: 90%;
+}
+
+
+.tony p {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 40%;
+}
+
+.tony{
+    display: flex;
+    box-shadow: 0 5px 50px rgba(255, 1, 1, 0.9);  
+}
+/* HOMEM DE FERRO */
+
+/* CAPITÃO AMERICA */
+
+.capitao-america img{
+    width: 900%;
+    padding-left: 90%;
+}
+
+
+.steve p {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 40%;
+    padding-bottom: 10px;
+}
+
+.steve{
+    display: flex;
+    box-shadow: 0 5px 50px rgba(1, 26, 253, 0.9);  
+}
+
+/* CAPITÃO AMERICA */
+
+/* THOR */
+.thor img{
+    width: 680%;
+    padding-left: 70%;
+}
+
+
+.thor p {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 40%;
+    padding-bottom: 10px;
+}
+
+.thor{
+    display: flex;
+    box-shadow: 0 8px 50px rgba(94, 155, 247, 0.9); 
+}
+/* THOR */
+
+/* HULK */
+.hulk img{
+    width: 1000%;
+    padding-left: 109%;
+}
+
+
+.hulk p {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 40%;
+    padding-bottom: 10px;
+}
+
+.hulk{
+    display: flex;
+    box-shadow: 0 8px 50px rgba(19, 201, 12, 0.9); 
+}
+/* HULK */
+
+/* VIUVA NEGRA */
+.viuva-negra img{
+    width: 570%;
+    padding-left: 60%;
+}
+
+
+.viuva p {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 40%;
+    padding-bottom: 10px;
+}
+
+.viuva{
+    display: flex;
+    box-shadow: 0 8px 50px rgba(32, 36, 32, 0.9); 
+}
+/* VIUVA NEGRA */
+
+/* GAVIÃO ARQUEIRO */
+.gaviao-arqueiro img{
+    width: 650%;
+    padding-left: 60%;
+}
+
+
+.gaviao p {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 40%;
+    padding-bottom: 10px;
+}
+
+.gaviao{
+    display: flex;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.9); 
+}
+/* GAVIAO ARQUEIRO */
+
+/* FIM PERSONAGENS ------------------------------------------------------------------------*/
+
+.botao-inicio{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: end;
+}
+
+.botao-inicio a{
+    padding: 10px;
+    background-color: #00BFFF;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao-inicio a:hover{
+    color: white;
+
+}
+
+/* FIM MEIO */
+
+/* INICIO FOOTER */
+footer{
+    background-color: rgb(81, 90, 90);
+    text-align: center;
+    color: white;
+}
+
+footer h3{
+    font-size: 33px;
+}
+
+footer h4{
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 23px;
+}
+
+/* img logo "M" marvel */
+.Marvel-img img{
+    width: 70px;
+    height: 9.5vh;
+}
+/* img logo "M" marvel */
+
+/* FIM FOOTER */
